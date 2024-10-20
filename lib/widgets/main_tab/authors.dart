@@ -42,7 +42,7 @@ Future getAuthorsDialog(BuildContext context, ThemeProvider themeProvider) {
                         ),
                         children: [
                           TextSpan(
-                              text: 'Tournamic, sr_milton',
+                              text: 'Tornamic, sr_milton',
                               style: TextStyle(
                                   color: !themeProvider.isDarkMode ? Colors.black : Colors.white,
                                   fontSize: 11.0,
