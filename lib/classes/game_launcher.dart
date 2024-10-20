@@ -66,10 +66,6 @@ class GameLauncher {
       port.toString()
     ];
 
-    print(gameExecutableFilePath);
-    print(args);
-    print(gameFolderPath);
-
     await Process.start(
         gameExecutableFilePath,
         args,
