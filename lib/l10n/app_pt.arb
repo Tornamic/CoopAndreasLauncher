@@ -1,0 +1,56 @@
+{
+  "@@locale": "pt",
+  "connect": "Conectar",
+  "server": "Servidor",
+  "title_connect_to_server": "Conecte se ao servidor",
+  "nickname": "Apelido",
+  "title_start_a_new_server" : "Iniciar um novo CoopAndreas servidor",
+  "max_players": "Max Jogadores",
+  "start_server": "Iniciar o servidor",
+  "authors": "Autores",
+  "close": "Fechar",
+  "port": "Porta",
+  "ip_port": "IP:{labelPort}",
+  "@ip_port": {
+    "placeholders": {
+      "labelPort": {
+        "type": "String"
+      }
+    }
+  },
+  "invalid_nickname": "Inválido apelido ({minPlayerNicknameCharacters}-{maxPlayerNicknameCharacters}) símbolos",
+  "@invalid_nickname": {
+    "placeholders": {
+      "minPlayerNicknameCharacters": {
+        "type": "int"
+      },
+      "maxPlayerNicknameCharacters": {
+        "type": "int"
+      }
+    }
+  },
+  "invalid_ip_port" : "Inválido IP Porta (Exemplo: {defaultServerAddress})",
+  "@invalid_ip_port": {
+    "placeholders": {
+      "defaultServerAddress": {
+        "type": "String"
+      }
+    }
+  },
+  "mod": "Mod: ",
+  "launcher": "Lançador: ",
+  "special_thanks": "Agradecimentos especiais: ",
+  "community": "Comunidade",
+  "failed_parse_ip_and_port": "Falha ao analisar IP e Porta",
+  "game_not_found": "Jogo não encontrado",
+  "mod_not_found": "{modName} não encontrado",
+  "@mod_not_found": {
+    "placeholders": {
+      "modName": {
+        "type": "String"
+      }
+    }
+  },
+  "switch_theme": "Mudar de tópico",
+  "game_path_not_set": "O caminho para o jogo não está definido"
+}

@@ -1,0 +1,56 @@
+{
+  "@@locale": "ru",
+  "connect": "Подключиться",
+  "server": "Сервер",
+  "title_connect_to_server": "Подключиться к серверу",
+  "nickname": "Никнейм",
+  "title_start_a_new_server" : "Запустить новый CoopAndreas сервер",
+  "max_players": "Макс. кол-во игроков",
+  "start_server": "Запустить сервер",
+  "authors": "Авторы",
+  "close": "Закрыть",
+  "port": "Порт",
+  "ip_port": "IP:{labelPort}",
+  "@ip_port": {
+    "placeholders": {
+      "labelPort": {
+        "type": "String"
+      }
+    }
+  },
+  "invalid_nickname": "Неверный никнейм ({minPlayerNicknameCharacters}-{maxPlayerNicknameCharacters}) символов",
+  "@invalid_nickname": {
+    "placeholders": {
+      "minPlayerNicknameCharacters": {
+        "type": "int"
+      },
+      "maxPlayerNicknameCharacters": {
+        "type": "int"
+      }
+    }
+  },
+  "invalid_ip_port" : "Неверный IP Port (Пример: {defaultServerAddress})",
+  "@invalid_ip_port": {
+    "placeholders": {
+      "defaultServerAddress": {
+        "type": "String"
+      }
+    }
+  },
+  "mod": "Мод: ",
+  "launcher": "Лаунчер: ",
+  "special_thanks": "Отдельная благодарность: ",
+  "community": "Сообщество",
+  "failed_parse_ip_and_port": "Не удалось проанализировать IP и Порт",
+  "game_not_found": "Игра не найдена",
+  "mod_not_found": "{modName} не найден",
+  "@mod_not_found": {
+    "placeholders": {
+      "modName": {
+        "type": "String"
+      }
+    }
+  },
+  "switch_theme": "Переключить тему",
+  "game_path_not_set": "Путь к игре не установлен"
+}

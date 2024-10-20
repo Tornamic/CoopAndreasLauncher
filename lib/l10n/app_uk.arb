@@ -1,0 +1,56 @@
+{
+  "@@locale": "uk",
+  "connect": "Підключитися",
+  "server": "Сервер",
+  "title_connect_to_server": "Підключитися до сервера",
+  "nickname": "Нікнейм",
+  "title_start_a_new_server" : "Запустити новий CoopAndreas сервер",
+  "max_players": "Макс. кількість гравців",
+  "start_server": "Запустити сервер",
+  "authors": "Автори",
+  "close": "Закрити",
+  "port": "Порт",
+  "ip_port": "IP:{labelPort}",
+  "@ip_port": {
+    "placeholders": {
+      "labelPort": {
+        "type": "String"
+      }
+    }
+  },
+  "invalid_nickname": "Недійсний нікнейм ({minPlayerNicknameCharacters}-{maxPlayerNicknameCharacters}) символів",
+  "@invalid_nickname": {
+    "placeholders": {
+      "minPlayerNicknameCharacters": {
+        "type": "int"
+      },
+      "maxPlayerNicknameCharacters": {
+        "type": "int"
+      }
+    }
+  },
+  "invalid_ip_port" : "Недійсний IP Port (Приклад: {defaultServerAddress})",
+  "@invalid_ip_port": {
+    "placeholders": {
+      "defaultServerAddress": {
+        "type": "String"
+      }
+    }
+  },
+  "mod": "Мод: ",
+  "launcher": "Лаунчер: ",
+  "special_thanks": "Окрема подяка: ",
+  "community": "Спільнота",
+  "failed_parse_ip_and_port": "Не вдалось проаналізувати IP та Порт",
+  "game_not_found": "Гра не знайдена",
+  "mod_not_found": "{modName} не знайден",
+  "@mod_not_found": {
+    "placeholders": {
+      "modName": {
+        "type": "String"
+      }
+    }
+  },
+  "switch_theme": "Переключити тему",
+  "game_path_not_set": "Шлях до гри не встановлено"
+}

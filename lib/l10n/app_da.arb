@@ -1,0 +1,56 @@
+{
+  "@@locale": "da",
+  "connect": "Forbind",
+  "server": "Server",
+  "title_connect_to_server": "Forbind til serveren",
+  "nickname": "Kælenavn",
+  "title_start_a_new_server" : "Starter en ny CoopAndreas server",
+  "max_players": "Max spillere",
+  "start_server": "Start serveren",
+  "authors": "Forfattere",
+  "close": "Luk",
+  "port": "Port",
+  "ip_port": "IP:{labelPort}",
+  "@ip_port": {
+    "placeholders": {
+      "labelPort": {
+        "type": "String"
+      }
+    }
+  },
+  "invalid_nickname": "Ugyldigt kaldenavn ({minPlayerNicknameCharacters}-{maxPlayerNicknameCharacters}) symboler",
+  "@invalid_nickname": {
+    "placeholders": {
+      "minPlayerNicknameCharacters": {
+        "type": "int"
+      },
+      "maxPlayerNicknameCharacters": {
+        "type": "int"
+      }
+    }
+  },
+  "invalid_ip_port" : "Ugyldigt IP Port (Eksempel: {defaultServerAddress})",
+  "@invalid_ip_port": {
+    "placeholders": {
+      "defaultServerAddress": {
+        "type": "String"
+      }
+    }
+  },
+  "mod": "Mod: ",
+  "launcher": "Launcher: ",
+  "special_thanks": "Spesiell takk: ",
+  "community": "Samfund",
+  "failed_parse_ip_and_port": "Kunne ikke analysere IP og Port",
+  "game_not_found": "Spillet er ikke fundet",
+  "mod_not_found": "{modName} ikke funnet",
+  "@mod_not_found": {
+    "placeholders": {
+      "modName": {
+        "type": "String"
+      }
+    }
+  },
+  "switch_theme": "Skift emne",
+  "game_path_not_set": "Vejen til spillet er ikke fastlagt"
+}
