@@ -20,7 +20,7 @@ Future<void> main() async {
     minimumSize: Size(screenSizeX, screenSizeY),
     maximumSize: Size(screenSizeX, screenSizeY),
     titleBarStyle: TitleBarStyle.hidden,
-    center: false
+    center: true
   );
 
   windowManager.waitUntilReadyToShow(windowOptions, () async {
